@@ -1,0 +1,6 @@
+body {
+    font-family:monospace;
+    background: linear-gradient(90deg, #89a2d5 0%, #7df6ffca 100%);
+    font-size: 20px;
+    color: rgb(11, 11, 11)
+}

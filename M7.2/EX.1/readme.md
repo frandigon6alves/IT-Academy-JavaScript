@@ -1,0 +1,7 @@
+Dibuja un triángulo:
+
+El número de líneas formadas por “*” vendrá dado por un número que el usuario/a introducirá por consola.
+
+--> Condición: En todo el código del programa sólo puede haber un *
+
+--> También, a ser posible, no utilices ningún método como repeat() o substring() de la clase String.

@@ -1,0 +1,8 @@
+body {
+    margin: 1mm;
+    font-family:monospace;
+    background: linear-gradient(90deg, #c135cb 0%, #ff7de3ca 100%);
+    font-size: 20px;
+    border:1cm;
+    color: rgb(255, 255, 255)
+}

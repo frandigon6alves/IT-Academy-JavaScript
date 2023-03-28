@@ -1,0 +1,7 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family:monospace;
+  background: linear-gradient(90deg, #9bd2de 0%, #1ca39c 100%);
+  display:block;
+}

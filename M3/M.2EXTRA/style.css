@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh; /* para deixar posicionado mais para baixo ou acima */
+  background: linear-gradient(90deg, #e77070 0%, #f49652 100%);
+  display: inline-flex;
+  justify-content: center; /* para deixar posicionado mais para esquerda ou direira */
+  align-items: center;
+}
+
+.container {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+}
+
+.header {
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+}
+
+.div {
+  padding: 20px;
+}
+
+.div-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.div-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.div-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.div button {
+  background-color: #f99f19;
+  border: 2px solid #f97f19;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.resul {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}

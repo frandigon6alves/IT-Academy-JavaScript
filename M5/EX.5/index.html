@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>M5 EX5</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Comprovar becas</h1>  
+    <label for="nombre">Introcude tu nobre</label>
+    <input id="nombre" placeholder="Nombre..."/>
+      <div class="div-control">
+        <label for="age">Eres mayor de edad?</label>
+        <input type="radio" name="age" value="Yes">Sí</input>
+        <input type="radio" name="age" value="No"> No</input>
+      </div>
+      <div class="div-control">
+        <label for="degree">Tienes titulo universitário:</label>
+        <input type="radio" name="degree" value="Yes">Sí</input>
+        <input type="radio" name="degree" value="No">No</input>
+      </div>
+      <div class="div-control">
+        <label for="unemployed">Estas en el paro?</label>
+        <input type="radio" name="unemployed" value="Yes">Sí</input>
+        <input type="radio" name="unemployed" value="No">No</input>
+      </div> 
+      <div class="button"> 
+        <button value="DESCUBRIR" onclick="checkScholarships()">Calcular</button>
+      </div>
+      <div class="resul">
+        <p id="scholarshipList"></p>
+        <p id="result"></p>
+      </div>
+  </div>   
+  <script src="index.js"></script>
+</body>
+</html>
